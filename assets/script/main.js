@@ -24,6 +24,7 @@ btn.addEventListener("click", function(){
 
         gridCell.addEventListener("click", function(){
             this.classList.toggle("clicked-cell")
+            console.log(i)
         }) 
     }
 
